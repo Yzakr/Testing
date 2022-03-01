@@ -1,0 +1,80 @@
+.btn {
+   cursor: pointer;
+}
+
+.red__btn {
+   background-color: var(--dobcon-red);
+   border-radius: 8px;
+   font-weight: 500;
+   font-family: sans-serif;
+   transition: .3s;
+}
+
+.red__btn:hover {
+   background-color: var(--dobcon-dark-red);
+}
+
+.filter__btn:hover {
+   background-color: var(--dobcon-dark-red);
+}
+
+.large__btn {
+   padding: 10px 80px;
+}
+
+.medium__btn {
+   padding: 10px 54px;
+}
+
+.small__btn {
+   padding: 10px 28px;
+}
+
+.filter__btn {
+   background-color: var(--dobcon-red);
+   font-weight: 500;
+   font-family: sans-serif;
+   transition: .3s;
+   padding: 5px 8px;
+   margin-right: 1.5rem;
+   cursor: pointer;
+}
+
+.gray__btn {
+   background-color: var(--dobcon-medium-gray);
+   border: 2px solid var(--dobcon-lighter-gray);
+   border-radius: 22px;
+   font-weight: 500;
+   font-family: sans-serif;
+   transition: .3s;
+}
+
+.gray__btn:hover {
+   background-color: var(--dobcon-gray);
+}
+
+.null__btn {
+   padding: 2px 40px 5px;
+   background: var(--dobcon-dark-gray);
+   border-radius: 5px;
+   font-size: 18px;
+   transition: .3s;
+   border: 1px solid var(--dobcon-dark-gray);
+}
+
+.null__btn:hover {
+   border: 1px solid var(--dobcon-medium-gray);
+}
+
+/* SYNC BTN */
+
+.sync__btn {
+   padding: .5rem 2rem .5rem;
+   border-radius: 8px;
+}
+
+/* BTN PERCENT */
+
+.btn__100 {
+   width: 100%;
+}

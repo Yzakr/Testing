@@ -1,0 +1,348 @@
+.tool__cards--body input {
+   display: none;
+}
+
+.toolChain__container {
+   display: flex;
+   justify-content: space-between;
+}
+
+/* .toolchainTab {
+   display: flex;
+   position: fixed;
+   top: 277px;
+   right: -3%;
+   transform: rotate(90deg);
+   padding: .5rem 1rem;
+   background-color: var(--dobcon-gray);
+   border: 2px solid var(--dobcon-medium-gray);
+} */
+
+.toolchainTab {
+   display: flex;
+   position: absolute;
+   top: 197px;
+   right: 1%;
+   padding: .35rem .75rem;
+   background-color: var(--dobcon-gray);
+   border: 2px solid var(--dobcon-medium-gray);
+   width: 75px;
+   font-size: 12px;
+   text-align: center;
+}
+
+.tools__cards {
+   width: 13.8%;
+   border: 2px solid var(--dobcon-medium-gray);
+   border-radius: 7.5px;
+}
+
+.tool__cards--body {
+   height: 385px;
+}
+
+.tool__cards--body div {
+   width: 100%;
+   height: 55px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   cursor: pointer;
+}
+
+.tool__cards--footer {
+   color: #FFF;
+   text-align: center;
+   font-size: 14px;
+   background: var(--dobcon-gray);
+   padding: 15px 0;
+   border-top: 4px solid var(--dobcon-red);
+   border-radius: 0 0 5px 5px;
+}
+
+.git__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/git-white.png');
+}
+.git__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/git-color.png');
+}
+
+.gitHub__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/github-white.png');
+}
+.gitHub__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/github-color.png');
+}
+
+.bitBucket__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/bitbucket-white.png');
+}
+.bitBucket__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/bitbucket-color.png');
+}
+
+.circleCi__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/circleci-white.png');
+}
+.circleCi__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/circleci-color.png');
+}
+
+.jenkins__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/jenkins-white.png');
+}
+.jenkins__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/jenkins-color.png');
+}
+
+.nuget__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/nuget-white.png');
+}
+.nuget__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/nuget-color.png');
+}
+
+.gitLab__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/gitlab-white.png');
+}
+.gitLab__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/gitlab-color.png');
+}
+
+.sonarQube__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/sonarqube-white.png');
+}
+.sonarQube__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/sonarqube-color.png');
+}
+
+.selenium__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/selenium-white.png');
+}
+.selenium__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/selenium-color.png');
+}
+
+.sonaType__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/sonatype-white.png');
+}
+.sonaType__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/sonatype-color.png');
+}
+
+.sentry__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/sentry-white.png');
+}
+.sentry__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/sentry-color.png');
+}
+
+.puppet__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/puppet-white.png');
+}
+.puppet__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/puppet-color.png');
+}
+
+.ansible__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/ansible-white.png');
+}
+.ansible__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/ansible-color.png');
+}
+
+.chef__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/chef-white.png');
+}
+.chef__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/chef-color.png');
+}
+
+.urbanCode__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/urbancode-white.png');
+}
+.urbanCode__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/urbancode-color.png');
+}
+
+.plutora__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/plutora-white.png');
+}
+.plutora__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/plutora-color.png');
+}
+
+.saltStack__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/saltstack-white.png');
+}
+.saltStack__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/saltstack-color.png');
+}
+
+.docker__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/docker-white.png');
+}
+.docker__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/docker-color.png');
+}
+
+.redHat__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/redhat-white.png');
+}
+.redHat__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/redhat-color.png');
+}
+
+.octopusDeploy__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/octopusdeploy-white.png');
+}
+.octopusDeploy__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/octopusdeploy-color.png');
+}
+
+.gradle__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/gradle-white.png');
+}
+.gradle__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/gradle-color.png');
+}
+
+.testSigma__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/testsigma-white.png');
+}
+.testSigma__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/testsigma-color.png');
+}
+
+.bamboo__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/bamboo-white.png');
+}
+.bamboo__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/bamboo-color.png');
+}
+
+.kubernetes__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/kubernetes-white.png');
+}
+.kubernetes__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/kubernetes-color.png');
+}
+
+.nagios__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/nagios-white.png');
+}
+.nagios__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/nagios-color.png');
+}
+
+.dynatrace__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/dynatrace-white.png');
+}
+.dynatrace__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/dynatrace-color.png');
+}
+
+.zabbix__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/zabbix-white.png');
+}
+.zabbix__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/zabbix-color.png');
+}
+
+.maven__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/maven-white.png');
+}
+.maven__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/maven-color.png');
+}
+
+.grafana__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/grafana-white.png');
+}
+.grafana__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/grafana-color.png');
+}
+
+.splunk__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/splunk-white.png');
+}
+.splunk__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/splunk-color.png');
+}
+
+.terraform__logo {
+   background-image: url('/src/backgrounds/toolchain/tool-white/terraform-white.png');
+}
+.terraform__logoColor {
+   background-color: var(--dobcon-gray);
+   background-image: url('/src/backgrounds/toolchain/tool-color/terraform-color.png');
+}
+
+@media only screen and (max-width: 575px) {
+
+   .toolChain__container {
+      overflow: auto;
+      display: -webkit-box;
+   }
+
+   .tools__cards {
+      width: 180px!important;
+      margin-right: 1rem;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+
+   .toolChain__container {
+      overflow: auto;
+      display: -webkit-box;
+   }
+
+   .tools__cards {
+      width: 170px!important;
+      margin-right: 1rem;
+   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ 
+   .toolChain__container {
+      overflow: auto;
+      display: -webkit-box;
+   }
+
+   .tools__cards {
+      width: 170px!important;
+      margin-right: 1rem;
+   }
+}

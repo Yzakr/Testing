@@ -1,0 +1,27 @@
+.search__box {
+   display: flex;
+}
+
+.search__box a {
+   margin-top: .5rem;
+   margin-left: -2rem;
+   color: var(--dobcon-light-gray);
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.search__bar {
+   height: 38px;
+   background-color: var(--dobcon-dark-gray);
+   border: 2px solid var(--dobcon-medium-gray);
+   border-radius: 1.2rem;
+   padding: 0.5rem 2.25rem .5rem .75rem;
+   width: 250px;
+   color: var(--dobcon-light-gray);
+}
+
+@media only screen and (max-width: 575px) {
+   .search__bar {
+      width: 180px;
+   }
+}

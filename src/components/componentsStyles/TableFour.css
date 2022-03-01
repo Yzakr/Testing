@@ -1,0 +1,48 @@
+.tableFour {
+   border: 2px solid var(--dobcon-medium-gray);
+   border-radius: 5px;
+   margin: 1rem 0;
+}
+
+.tableFour__head {
+   display: flex;
+   border-bottom: 4px solid var(--dobcon-red);
+   padding: .75rem .5rem .4rem 1rem;
+   justify-content: space-between;
+}
+
+.scroll__tbody {
+   max-height: 140px;
+   overflow-y: auto;
+}
+
+.tableFour table {
+   width: 100%;
+}
+
+.small__td {
+   text-align: center!important;
+   width: 120px;
+}
+
+.add__btn {
+   margin-top: -2px;
+   background: var(--dobcon-darkest-gray);
+   border: 1px solid var(--dobcon-medium-gray);
+   border-radius: 4px;
+   height: 22px;
+   width: 45px;
+   transition: .3s;
+}
+
+.add__btn:hover {
+   background: var(--dobcon-dark-gray);
+}
+
+.add__btn--active {
+   background: var(--dobcon-dark-gray);
+}
+
+.add__btn--active:hover {
+   background: var(--dobcon-darkest-gray);
+}

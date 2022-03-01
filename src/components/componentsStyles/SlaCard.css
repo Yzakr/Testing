@@ -1,0 +1,39 @@
+.sla__card {
+   width: 13.8%;
+   border: 2px solid var(--dobcon-medium-gray);
+   border-radius: 7.5px;
+   background-color: var(--dobcon-gray);
+   border-top: 6px solid var(--dobcon-red);
+   font-size: 14px;
+   text-align: center;
+   padding: 0.2rem .5rem 1rem;
+}
+
+.sla__card p {
+   margin: .75rem 0;
+}
+
+@media only screen and (max-width: 575px) {
+   
+   .sla__card {
+      width: 100%;
+      margin: 1rem auto;
+      padding: 1rem 1.5rem 2rem;
+   }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+   
+   .sla__card {
+      width: 47.5%;
+      margin: 1rem auto;
+   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+   .sla__card {
+      width: 30%;
+      margin-bottom: 2rem;
+   }
+}

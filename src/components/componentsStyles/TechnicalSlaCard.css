@@ -1,0 +1,92 @@
+.techSla__card {
+   width: 162.5px;
+   border: 2px solid var(--dobcon-medium-gray);
+   border-radius: 7.5px;
+   background-color: var(--dobcon-gray);
+   font-size: 14px;
+   margin: 0 0 1rem;
+}
+
+.techSla__head {
+   background: var(--dobcon-dark-gray);
+   text-align: center;
+   padding: .5rem 0;
+   border-radius: 7.5px 7.5px 0px 0px;
+}
+
+.techSla__body {
+   margin: .8rem .5rem .1rem;
+   line-height: 1.5;
+   font-size: 12px;
+}
+
+.circleGreen {
+   color: var(--dobcon-green);
+}
+
+.circleRed {
+   color: var(--dobcon-light-red);
+}
+
+.techSla__footer {
+   padding: .5rem;
+   line-height: 1.5;
+}
+
+.flexSla {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 0.5rem;
+}
+
+.slaLine {
+   border: 1px solid #FFF;
+   border-top: 0px;
+   width: 30%;
+   margin-top: .35rem;
+}
+
+.flexProgress {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.slaProgress {
+   display: flex;
+   height: 6px;
+   width: 100px;
+   margin-top: 7.5px;
+   background: var(--dobcon-dark-gray);
+   border-radius: 3px;
+}
+
+.sp__95 {
+   width: 95%;
+   height: 6px;
+   background-color: var(--dobcon-green);
+   border-radius: 3px;
+}
+
+.sp__50 {
+   width: 50%;
+   height: 6px;
+   background-color: var(--dobcon-light-red);
+   border-radius: 3px;
+}
+
+@media only screen and (max-width: 575px) {
+
+   .techSla__card {
+      width: 170px;
+      margin: 0 .5rem;
+   }  
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+   .techSla__card {
+      width: 185px;
+      margin: 0 .5rem;
+   }  
+}

@@ -1,0 +1,21 @@
+.setup__divisions {
+   max-width: 1200px;
+   margin: 2rem auto 0;
+}
+
+.gray__line {
+   background: var(--dobcon-medium-gray);
+   border: 1px solid var(--dobcon-medium-gray);
+   margin-block-end: 2px;
+}
+
+.red__box {
+   background: var(--dobcon-medium-red);
+   padding: 0.25rem 2rem;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.medium__title {
+   margin-bottom: 1rem;
+}

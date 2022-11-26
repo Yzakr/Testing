@@ -1,0 +1,45 @@
+step "docker-create-and-push-image" {
+    name = "Docker - Create and Push Image"
+    properties = {
+        Octopus.Action.TargetRoles = "rolando"
+    }
+
+    action {
+        properties = {
+            DockerPassword = "#{Octopus.Account.Password}"
+            DockerUsername = "rolandov"
+            ImageName = "rolandov/testing"
+            ImageTag = "latest"
+            Octopus.Action.RunOnServer = "false"
+            Octopus.Action.Template.Id = "ActionTemplates-1"
+            Octopus.Action.Template.Version = "1"
+        }
+        worker_pool_variable = ""
+    }
+}
+
+step "run-a-docker-container" {
+    name = "Run a Docker Container"
+    properties = {
+        Octopus.Action.TargetRoles = "rolando"
+    }
+
+    action {
+        action_type = "Octopus.DockerRun"
+        properties = {
+            Octopus.Action.Package.DownloadOnTentacle = "False"
+            Octopus.Action.Package.FeedId = "rolando-builds"
+            Octopus.Action.Package.PackageId = "1"
+        }
+        worker_pool_variable = ""
+
+        packages {
+            acquisition_location = "Server"
+            feed = "rolando-builds"
+            package_id = "1"
+            properties = {
+                SelectionMode = "immediate"
+            }
+        }
+    }
+}
